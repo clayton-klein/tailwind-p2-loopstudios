@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    <script src="./js/script.js" defer></script>
     <link rel="stylesheet" href="css/style.css" />
     <title>Loopstudios</title>
   </head>
@@ -62,10 +63,31 @@
             </div>
           </div>
 
-          <!-- @TODO Hamburger Button -->
+          <!-- Hamburger Button -->
+          <div class="md:hidden">
+            <button
+              class="z-10 block hamburger md:hidden focus:outline-none"
+              id="menu-btn"
+              type="button"
+            >
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middle"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+          </div>
         </nav>
 
-        <!-- @TODO Mobile Menu -->
+        <!-- Mobile Menu -->
+        <div
+          id="hamburgerMenu"
+          class="hidden absolute top-0 bottom-0 left-0 flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-white uppercase bg-black"
+        >
+          <a href="#" class="hover:text-purple-300">About </a>
+          <a href="#" class="hover:text-purple-300">Careers</a>
+          <a href="#" class="hover:text-purple-300">Events</a>
+          <a href="#" class="hover:text-purple-300">Products</a>
+          <a href="#" class="hover:text-purple-300">Support</a>
+        </div>
 
         <div
           class="max-w-lg my-32 p-4 font-sans text-4xl text-white uppercase border-2 md:p-10 md:text-6xl"
@@ -114,7 +136,7 @@
             Our creations
           </h2>
           <!-- It starts hidden on mobile screens and then it appears from medium screens up -->
-          <button class="hidden md:block">See all</button>
+          <button class="btn hidden md:block">See all</button>
         </div>
         <!-- Items Container 1 -->
         <div class="items-container">
@@ -283,7 +305,7 @@
         </div>
         <!-- Bottom Button Container -->
         <div class="flex justify-center mt-10 md:hidden">
-          <button class="w-full">See all</button>
+          <button class="btn w-full">See all</button>
         </div>
       </div>
     </section>
@@ -363,7 +385,7 @@
                   <img
                     src="./images/icon-facebook.svg"
                     alt="facebook logo"
-                    class="h-6"
+                    class="h-6 hover:scale-125"
                   />
                 </a>
               </div>
@@ -372,8 +394,8 @@
                 <a href="#">
                   <img
                     src="./images/icon-twitter.svg"
-                    alt="facebook logo"
-                    class="h-6"
+                    alt="twitter logo"
+                    class="h-6 hover:scale-125"
                   />
                 </a>
               </div>
@@ -382,8 +404,8 @@
                 <a href="#">
                   <img
                     src="./images/icon-instagram.svg"
-                    alt="facebook logo"
-                    class="h-6"
+                    alt="instagram logo"
+                    class="h-6 hover:scale-125"
                   />
                 </a>
               </div>
@@ -392,8 +414,8 @@
                 <a href="#">
                   <img
                     src="./images/icon-pinterest.svg"
-                    alt="facebook logo"
-                    class="h-6"
+                    alt="pinterest logo"
+                    class="h-6 hover:scale-125"
                   />
                 </a>
               </div>
