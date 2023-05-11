@@ -1,4 +1,4 @@
-**Status: em andamento.**
+**Status: finalizado.**
 
 <br>
 
@@ -8,7 +8,7 @@
 
 - Este repositório contém o segundo de 6 projetos de páginas web desenvolvidos durante este curso, os demais estarão em seus respectivos repositórios.
 
-- Foi desenvolvida apenas a interface e não a parte de back-end, então não é possível realmente cadastrar um e-mail por exemplo.
+- Foi desenvolvida apenas a interface inicial, os links para outras páginas são apenas decorativos.
 
 <br>
 
